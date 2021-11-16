@@ -1,15 +1,27 @@
 # Online Python compiler (interpreter) to run Python online.
 # Write Python 3 code in this online editor and run it.
 
-message="Hola que tal"
-number_var=123
-float_var=123,342
+message1="Hola que tal"
+message2="bien"
 
-print(message)
-print(type(message))
+number_var1=123
+number_var2=123
 
-print(number_var)
-print(type(number_var))
+float_var=123.342
+float_var2=234.765
 
-print(float_var)
-print(type(float_var))
+
+
+
+
+sumarnumber=(number_var1+number_var2)
+print("Total")
+print(sumarnumber)
+
+sumarfloat=(float_var+float_var2)
+print("Total")
+print(sumarfloat)
+
+sumarmessage=(message1+" "+ message2)
+print("Concatenar")
+print(sumarmessage)
