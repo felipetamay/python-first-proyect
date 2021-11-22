@@ -25,3 +25,8 @@ print(sumarfloat)
 sumarmessage=(message1+" "+ message2)
 print("Concatenar")
 print(sumarmessage)
+from math import pi
+
+r=5.5
+print(pi * 5.5** 2)
+
