@@ -6,6 +6,8 @@ def ingrese():
     return correo
 
 
+
+
 # mensaje en ciclo repetitivo cuando el correo es incorrecto
 def mens_corre_rep():
     print("No se a encontrado esa cuenta de correo")
@@ -25,13 +27,17 @@ def mens_contra_rep():
 # siclo para validar correo y verificar que no este vacio.
 def correo_val(correo):
     correo_valido = "usermaster@gmail.com"
-
+    if contar_correo(correo) != 1:
+        print("***No a ingresado ningun correo***")
     if not correo:
         print("       La entrada es vacia")
 
     while correo != correo_valido:
         mens_corre_rep()
         correo = input("_____:")
+
+        if contar_correo(correo) != 1:
+            print("***No a ingresado ningun correo***")
         if not correo:
             print("       La entrada es vacia")
     print("")
@@ -70,5 +76,13 @@ def contar_contraseña(contraseña):
 
     for i in contraseña:
         if i:
+            contar+=1
+    return contar
+
+def contar_correo(correo):
+    contar=0
+
+    for i in correo:
+        if i== "@":
             contar+=1
     return contar
