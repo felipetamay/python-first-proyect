@@ -31,7 +31,7 @@ def bienvenida():
 def opciones():
 
     while True:
-        print("\nElija la opción a la que desea accceder:")
+        print("\nEscriba y envíe la opción a la que desea accceder:")
         print("1. \U0001F464+ Crear contacto nuevo")
         print("2. \U0001F50D Buscar contactos")
         print("3. \U0001F4DA Agenda de contactos")

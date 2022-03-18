@@ -1,0 +1,15 @@
+<Contactos>
+    <Persona>
+        <nombre>Duvan</nombre>
+        <apellido>Molina</apellido>
+        <apodo>NN</apodo>
+        <telefono>31313</telefono>
+        <parentesco>compadre</parentesco>
+    </Persona>
+    <Persona><nombre>felipe</nombre>
+        <apellido>tamayo</apellido>
+        <apodo>elguapo</apodo>
+        <telefono>31231314</telefono>
+        <parentesco>yo</parentesco>
+    </Persona>
+</Contactos>
